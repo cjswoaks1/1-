@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부산 로맨틱 여행 가이드 - 프리미엄 에디션</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+KR:wght@300;500;700&display=swap');
+
+        body {
+            font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background: #555;
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 20px auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        /* Cover Page Styles */
+        .cover {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .cover h1 {
+            font-size: 3em;
+            color: #004080;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            border: none;
+        }
+
+        .cover .subtitle {
+            font-size: 1.5em;
+            color: #555;
+            margin-bottom: 50px;
+        }
+
+        .cover .target {
+            font-size: 1.2em;
+            color: #d9534f;
+            font-weight: bold;
+            border: 2px solid #d9534f;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        /* Content Styles */
+        h1,
+        h2,
+        h3 {
+            color: #004080;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h2 {
+            margin-top: 30px;
+            background: #eef4fb;
+            padding: 10px 15px;
+            border-left: 8px solid #004080;
+            font-size: 1.8em;
+        }
+
+        .day-badge {
+            background: #004080;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 4px;
+            font-size: 0.6em;
+            vertical-align: middle;
+            margin-right: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .time-slot {
+            font-weight: bold;
+            color: #d9534f;
+            margin-right: 10px;
+            font-size: 1.1em;
+        }
+
+        .spot-name {
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .desc {
+            font-size: 1em;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .tip-box {
+            background: #fffbe6;
+            border: 2px solid #ffe58f;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+
+        .tip-title {
+            font-weight: bold;
+            color: #d48806;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+
+        .spot-container {
+            margin-bottom: 40px;
+            border-bottom: 1px dashed #ddd;
+            padding-bottom: 20px;
+        }
+
+        .spot-container:last-child {
+            border-bottom: none;
+        }
+
+        /* Bonus Page Styles */
+        .bonus-page {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            border: 5px solid #b7eb8f;
+        }
+
+        .bonus-title {
+            color: #389e0d;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .bonus-btn {
+            display: inline-block;
+            background: #52c41a;
+            color: white;
+            padding: 20px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-top: 30px;
+            box-shadow: 0 4px 10px rgba(82, 196, 26, 0.4);
+            transition: transform 0.2s;
+        }
+
+        .bonus-btn:hover {
+            transform: scale(1.05);
+        }
+
+        @media print {
+            body {
+                background: white;
+                margin: 0;
+            }
+
+            .page {
+                margin: 0;
+                box-shadow: none;
+                width: 100%;
+                min-height: auto;
+                page-break-after: always;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Page 1: Cover -->
+    <div class="page cover">
+        <h1>BUSAN IN LOVE</h1>
+        <div class="subtitle">부산 로맨틱 여행 가이드 (커플 에디션)</div>
+
+        <div style="margin: 50px 0;">
+            <!-- Placeholder for a sexy cover image -->
+            <div
+                style="width: 100%; height: 300px; background: #eee; display: flex; align-items: center; justify-content: center; color: #aaa; font-size: 1.5em; border-radius: 10px;">
+                [ 여기에 아름다운 노을 사진 삽입 ]
+            </div>
+        </div>
+
+        <div>
+            <span class="target">인별그램 인생샷 커플을 위한 완벽 가이드 💖</span>
+        </div>
+        <p style="margin-top: 20px; color: #888;">실패 없는 1박 2일 데이트 코스 & 숨은 찐맛집</p>
+    </div>
+
+    <!-- Page 2: Day 1 -->
+    <div class="page">
+        <h2><span class="day-badge">Day 1</span>바다와 노을 패키지</h2>
+
+        <div class="spot-container">
+            <p><span class="time-slot">AM 10:00</span> <span class="spot-name">해운대 블루라인파크 (스카이캡슐)</span></p>
+            <p class="desc">해안선을 따라 천천히 달리는 알록달록 스카이 캡슐 안에서, 오직 둘만의 조용한 시간을 가져보세요.</p>
+            <div class="tip-box">
+                <span class="tip-title">💡 예약 필승 꿀팁</span>
+                현장 발권은 거의 불가능합니다! 최소 <strong>2주 전 공식 홈페이지 예매</strong> 필수.<br>
+                추천 경로: 미포 정거장 출발 ➡️ 청사포 정거장 도착 (약 30분 소요)
+            </div>
+        </div>
+
+        <div class="spot-container">
+            <p><span class="time-slot">PM 12:30</span> <span class="spot-name">점심: 바다마루 돼지국밥 (오션뷰 국밥)</span></p>
+            <p class="desc">관광지 바가지요? 절대 아닙니다. 현지 택시 기사님들도 줄 서는 찐맛집에서 깊은 맛을 느껴보세요.</p>
+            <p class="desc"><strong>추천 메뉴:</strong> 모둠수육백반 (고기가 야들야들 끝내줍니다!)</p>
+        </div>
+
+        <div class="spot-container">
+            <p><span class="time-slot">PM 3:00</span> <span class="spot-name">기장 초대형 오션뷰 카페 투어</span></p>
+            <p class="desc">한국에서 가장 힙한 카페들이 모여 있는 '기장' 해안도로 드라이브 코스입니다.</p>
+            <div class="tip-box" style="border-color: #ffadd2; background: #fff0f6;">
+                <span class="tip-title" style="color: #c41d7f;">📸 인생샷 포인트 (Life-Shot)</span>
+                <ul>
+                    <li><strong>루프탑 빈백:</strong> 수평선을 배경으로 연인과 나란히 누워 뒷모습 샷!</li>
+                    <li><strong>거울 포토존:</strong> 입구 대형 거울 앞에서, 바다 반사되게 전신 거울 셀카!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 3: Day 2 -->
+    <div class="page">
+        <h2><span class="day-badge">Day 2</span>감성 충전 & 쇼핑 타임</h2>
+
+        <div class="spot-container">
+            <p><span class="time-slot">AM 10:00</span> <span class="spot-name">영도 흰여울문화마을</span></p>
+            <p class="desc">"한국의 산토리니"라고 불리는 절벽 마을. 좁은 골목 사이로 보이는 파란 바다가 예술입니다.</p>
+            <div class="tip-box">
+                <span class="tip-title">📸 줄 서도 찍어야 할 3대 명소</span>
+                1. <strong>해안 터널:</strong> 터널 끝 실루엣 샷은 무조건 프로필 각!<br>
+                2. <strong>무지개 계단:</strong> 아래에서 위로 찍으면 다리가 길어 보여요.<br>
+                3. <strong>파란 벽 골목:</strong> 아무 벽이나 기대면 화보 완성.
+            </div>
+        </div>
+
+        <div class="spot-container">
+            <p><span class="time-slot">PM 1:00</span> <span class="spot-name">점심: 남포동 길거리 음식 투어</span></p>
+            <p class="desc">식당 대신 시장통 바이브를 제대로 느껴보세요. (부산 3대장 간식 체험)</p>
+            <p class="desc">🥢 <strong>필수 먹킷리스트:</strong> 씨앗호떡, 비빔당면, 물떡 (어묵 국물 무한 리필!)</p>
+        </div>
+
+        <div class="spot-container">
+            <p><span class="time-slot">PM 3:00</span> <span class="spot-name">쇼핑: 국제시장 빈티지 & 소품샵</span></p>
+            <p class="desc">"꽃분이네"만 가지 마세요. 힙스터들의 성지인 구제 골목과 소품샵 투어.</p>
+            <p class="desc"><strong>쇼핑 팁:</strong> 부산 랜드마크 마그넷과 빈티지 안경은 최고의 기념품!</p>
+        </div>
+    </div>
+
+    <!-- Page 4: Bonus -->
+    <div class="page bonus-page">
+        <h3 class="bonus-title">🎁 시크릿 보너스 (Secret Bonus)</h3>
+        <p style="font-size: 1.2em;">가이드북을 구매해 주셔서 감사합니다!</p>
+        <p style="font-size: 1.1em; color: #555; margin: 20px 0;">
+            여러분의 여행이 200% 더 편해지도록,<br>
+            가이드북에 나온 모든 장소의 <strong>정확한 좌표</strong>와<br>
+            <strong>현지인만 아는 숨은 맛집 5곳</strong>을 추가한 지도를 선물로 드립니다.<br>
+            (길 헤매지 마시고 바로 찾아가세요!)
+        </p>
+
+        <a href="#" class="bonus-btn" onclick="alert('구글맵 링크로 연결됩니다! (데모)'); return false;">🗺️ 시크릿 구글맵 접속하기</a>
+
+        <div style="margin-top: 50px; font-size: 0.9em; color: #aaa;">
+            Premium Content for Paid Subscribers Only.<br>
+            &copy; 2026 Busan Vibes. All rights reserved.
+        </div>
+    </div>
+
+</body>
+
+</html>
